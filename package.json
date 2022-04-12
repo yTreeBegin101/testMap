@@ -1,0 +1,22 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "other.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html & parcel watch index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "duy",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "http-server": "^14.1.0",
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "parcel": "^2.4.1"
+  }
+}
